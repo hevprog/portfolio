@@ -1,0 +1,30 @@
+nav{
+    background-color: lightgrey;
+    height: auto;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-bottom: 20px;
+}
+li{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 10%;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+
+#blink_text{	
+    animation-name:blink;
+    width:280px;
+    animation-duration: .5s;
+    animation-direction: alternate;
+    animation-timing-function:linear;
+    animation-iteration-count:Infinite;
+    }
+  
+  @keyframes blink{
+    100%{color:white;}
+    100%{color:rgb(0, 0, 0);}

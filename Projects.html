@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav>
+            <li>
+                <a href="Mainpage.html">About me</a>
+            </li>
+            <li>
+                <a href="Projects.html">Projects</a>
+            </li>
+            <li>
+                <a>Social media</a>
+            </li>
+        </nav>
+        <section id="topProject">
+            <h1>The project section</h1>
+            <p>I only made good number of prototypes for the past years since 2019.<br>
+            None of them are well documented, here are the projects I have include. Some of projects can be found in Github</p>
+        </section>
+        <div id="pingpong">
+        <video id= pingpongvid autoplay loop src="media/Screen Recording 2024-10-23 182059.mp4" height="200px"></video>
+        <p id="pingpongDescrp" style="text-align: center;">
+            Pingpong is a game ive made for learning C++ and C
+            using the Raylib library. <br>
+            Credit to my best friend who help me navigate C++ and introduced me 
+            Make, a build automation software that helps to automate builds.
+        </p>
+        </div>
+        <div id="end">
+            <p style="text-align: center;">
+                More projects soon!
+            </p>
+        </div>
+    </body>
+    <link rel="stylesheet" href="globalcss.css">
+    <style>
+        body{
+            background-color: rgb(31, 34, 31);
+            background-repeat: repeat-y;
+            background-image: radial-gradient(rgb(20, 118, 20),rgba(0, 0, 0, 0))
+        }
+        #topProject{
+            font-family: 'Gill Sans MT', 'Gill Sans', 'Trebuchet MS', sans-serif;
+            color: white;
+            text-align: center;
+            border: double;
+        }
+        #pingpongDescrp{
+            font-size: 20px;
+            color: aliceblue;
+        }
+        #pingpong{
+            border-style: groove;
+            border-color: white;
+            text-align: center;
+        }
+        #pingpongDescrp{
+            text-align: left;
+        }
+        p{
+            color: white;
+            text-align: center;
+        }
+        #pingpongvid{
+            padding: 50px;
+        }
+    </style>
+</html>
